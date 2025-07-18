@@ -1,0 +1,77 @@
+.box1 {
+    height: 350px;
+    width: 900px;
+    background-color: white;
+    border-radius: 1%;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+.box1 h3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.box1 button{
+    border-style: none;
+    width:100%;
+    padding:7px ;
+    background-color: #006bbd;
+    color: white;
+    border-radius: 3px;
+}
+.box1 button:hover{
+    background-color: #0091ff;
+    cursor: pointer;
+}
+.box2 {
+    height: 350px;
+    width: 900px;
+    background-color: white;
+    border-radius: 1%;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 0px 20px;
+}
+
+body {
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.fieldBox {
+    display: flex;
+    height: 65%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fieldLabel {
+    display: flex;
+    flex-direction: column;
+}
+.fieldLabel input{
+    padding: 7px;
+}
+
+.fieldType {
+    display: flex;
+    flex-direction: column;
+}
+.fieldType select{
+    width: 100%;
+    padding: 7px;
+}
+#previewBox{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
